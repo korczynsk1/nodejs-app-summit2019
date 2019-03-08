@@ -1,0 +1,174 @@
+{
+  "general": {
+    "app": {
+      "mainTitle": "Architects' Summit 2019 in Wrocław"
+    }
+  },
+  "agenda": {
+    "days": [
+      {
+        "id": 1,
+        "date": "2019-03-22",
+        "timeSlots": [
+          {
+            "id": 101,
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "name": "Come together",
+            "isBreak": true
+          },
+          {
+            "id": 102,
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "name": "Joint Opening (from FRA)",
+            "room": "Plenum",
+            "isBreak": false
+          },
+          {
+            "id": 103,
+            "startTime": "11:00",
+            "endTime": "11:30",
+            "name": "Joint Key Note (from FRA)",
+            "room": "Plenum",
+            "isBreak": false
+          },
+          {
+            "id": 104,
+            "startTime": "11:30",
+            "endTime": "12:30",
+            "name": "Working streams",
+            "room": "Stream rooms",
+            "isBreak": false
+          },
+          {
+            "id": 105,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Lunch",
+            "isBreak": true
+          },
+          {
+            "id": 106,
+            "startTime": "13:30",
+            "endTime": "14:30",
+            "name": "\"Cool\" Key Note",
+            "room": "Plenum",
+            "isBreak": false
+          },
+          {
+            "id": 107,
+            "startTime": "14:30",
+            "endTime": "15:00",
+            "name": "AR Common Break-Out",
+            "isBreak": false
+          },
+          {
+            "id": 108,
+            "startTime": "15:00",
+            "endTime": "15:30",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 109,
+            "startTime": "15:30",
+            "endTime": "16:30",
+            "name": "Working streams",
+            "room": "Stream rooms",
+            "isBreak": false
+          },
+          {
+            "id": 110,
+            "startTime": "16:30",
+            "endTime": "17:00",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 111,
+            "startTime": "17:00",
+            "endTime": "18:30",
+            "name": "Working streams",
+            "room": "Stream rooms",
+            "isBreak": false
+          },
+          {
+            "id": 112,
+            "startTime": "18:30",
+            "endTime": "20:00",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 113,
+            "startTime": "20:00",
+            "endTime": "21:00",
+            "name": "Dinner",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "2019-03-23",
+        "timeSlots": [
+          {
+            "id": 201,
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "name": "Working streams",
+            "room": "Stream rooms",
+            "isBreak": false
+          },
+          {
+            "id": 202,
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "name": "Joint Key Note (FRA + WRO)",
+            "room": "Plenum",
+            "isBreak": false
+          },
+          {
+            "id": 203,
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 204,
+            "startTime": "12:00",
+            "endTime": "12:30",
+            "name": "Working streams",
+            "room": "Stream rooms",
+            "isBreak": false
+          },
+          {
+            "id": 205,
+            "startTime": "12:30",
+            "endTime": "13:00",
+            "name": "Joint Wrap-Up (from Pune)",
+            "room": "Plenum",
+            "isBreak": false
+          },
+          {
+            "id": 206,
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "name": "Lunch",
+            "isBreak": true
+          },
+          {
+            "id": 207,
+            "startTime": "14:00",
+            "endTime": "14:30",
+            "name": "Closing",
+            "room": "Plenum",
+            "isBreak": false
+          }
+        ]
+      }
+    ]
+  }
+}

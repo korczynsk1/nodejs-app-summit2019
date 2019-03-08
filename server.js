@@ -11,14 +11,21 @@ const app = express();
 const port = process.env.port || 5555;
 const root = path.join(__dirname, 'public');
 
-const currentEvent = require('./data/event.json');
+const summits = {};
+summits['arch-pnq'] = require('./data/arch-pnq/event.json');
+summits['arch-wro'] = require('./data/arch-wro/event.json');
+summits['em-fra'] = require('./data/em-fra/event.json');
+summits['em-pnq'] = require('./data/em-pnq/event.json');
 
 app.use(nocache());
 app.use(express.static(root));
 app.use(bodyParser.json());
 
-app.get('/api/event', function(req, res) {
-    res.json(currentEvent);
+app.get('/api/event/:summitName', function(req, res) {
+    const summitName = req.params.summitName;
+    const summit = summitName && summits[summitName];
+
+    summit ? res.json(summit) : res.sendStatus(400);
 });
 
 // diagnostic
@@ -124,19 +131,6 @@ function getIcon(type) {
 const server = app.listen(port, function() {
     const address = server.address();
     const port = address.port;
-
-    // schedule meals; time GMT+0000 (Coordinated Universal Time)
-    // test
-    scheduler.schedule(2019, 1, 28, 11, 0, 0,
-        () => subscriptions.pushAll('Tech Talk with Capgemini Special Edition', 'Test :)', 'logo'));
-    scheduler.schedule(2019, 2, 1, 8, 30, 0,
-        () => subscriptions.pushAll('Tech Talk with Capgemini Special Edition', 'Welcome! We hope you\'re well :)', 'logo'));
-    scheduler.schedule(2019, 2, 1, 10, 0, 0,
-        () => subscriptions.pushAll('Tech Talk with Capgemini Special Edition', 'Coffee break! Enjoy :)', 'coffee'));
-    scheduler.schedule(2019, 2, 1, 12, 20, 0,
-        () => subscriptions.pushAll('Tech Talk with Capgemini Special Edition', 'Lunch break! Enjoy :)', 'lunch'));
-    scheduler.schedule(2019, 2, 1, 15, 0, 0,
-        () => subscriptions.pushAll('Tech Talk with Capgemini Special Edition', 'Please give us your feedback; it\'s important :)', 'logo'));
 
     console.log('App is listening on port %s...', port);
 });
