@@ -13,32 +13,36 @@
           {
             "id": 101,
             "startTime": "09:00",
-            "endTime": "10:00",
-            "name": "Come together",
-            "isBreak": true
+            "endTime": "09:30",
+            "name": "Welcome",
+            "presenters": [
+              1,
+              2
+            ],
+            "isBreak": false
           },
           {
             "id": 102,
-            "startTime": "10:00",
-            "endTime": "11:00",
-            "name": "Joint Opening (from FRA)",
-            "room": "Plenum",
+            "startTime": "9:30",
+            "endTime": "10:30",
+            "name": "Workstreams",
             "isBreak": false
           },
           {
             "id": 103,
-            "startTime": "11:00",
+            "startTime": "10:30",
             "endTime": "11:30",
-            "name": "Joint Key Note (from FRA)",
-            "room": "Plenum",
+            "name": "Joint Key Note",
+            "presenters": [
+              3
+            ],
             "isBreak": false
           },
           {
             "id": 104,
             "startTime": "11:30",
             "endTime": "12:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "name": "Workstreams",
             "isBreak": false
           },
           {
@@ -52,56 +56,57 @@
             "id": 106,
             "startTime": "13:30",
             "endTime": "14:30",
-            "name": "\"Cool\" Key Note",
-            "room": "Plenum",
+            "presenters": [
+              4
+            ],
+            "name": "Joint External Key Note: \"Winning Together\"",
             "isBreak": false
           },
           {
             "id": 107,
             "startTime": "14:30",
             "endTime": "15:00",
-            "name": "AR Common Break-Out",
+            "name": "Photo Session",
             "isBreak": false
           },
           {
-            "id": 108,
+            "id": 109,
             "startTime": "15:00",
             "endTime": "15:30",
             "name": "Break",
             "isBreak": true
           },
           {
-            "id": 109,
+            "id": 110,
             "startTime": "15:30",
             "endTime": "16:30",
-            "name": "Working streams",
+            "name": "Workstreams",
             "room": "Stream rooms",
             "isBreak": false
           },
           {
-            "id": 110,
+            "id": 111,
             "startTime": "16:30",
             "endTime": "17:00",
             "name": "Break",
             "isBreak": true
           },
           {
-            "id": 111,
+            "id": 112,
             "startTime": "17:00",
             "endTime": "18:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "name": "Workstreams",
             "isBreak": false
           },
           {
-            "id": 112,
+            "id": 113,
             "startTime": "18:30",
             "endTime": "20:00",
-            "name": "Break",
+            "name": "Leisure time",
             "isBreak": true
           },
           {
-            "id": 113,
+            "id": 114,
             "startTime": "20:00",
             "endTime": "21:00",
             "name": "Dinner",
@@ -117,58 +122,73 @@
             "id": 201,
             "startTime": "09:00",
             "endTime": "10:00",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "name": "Workstreams",
             "isBreak": false
           },
           {
             "id": 202,
             "startTime": "10:00",
             "endTime": "11:00",
-            "name": "Joint Key Note (FRA + WRO)",
-            "room": "Plenum",
+            "name": "Joint Key Note",
+            "presenters": [5,6],
             "isBreak": false
           },
           {
             "id": 203,
             "startTime": "11:00",
-            "endTime": "12:00",
-            "name": "Break",
+            "endTime": "12:30",
+            "name": "Poster Session & Break",
             "isBreak": true
           },
           {
             "id": 204,
-            "startTime": "12:00",
-            "endTime": "12:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "startTime": "12:30",
+            "endTime": "13:00",
+            "name": "Joint Wrap-up",
             "isBreak": false
           },
           {
             "id": 205,
-            "startTime": "12:30",
-            "endTime": "13:00",
-            "name": "Joint Wrap-Up (from Pune)",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
-            "id": 206,
             "startTime": "13:00",
             "endTime": "14:00",
             "name": "Lunch",
             "isBreak": true
           },
           {
-            "id": 207,
+            "id": 206,
             "startTime": "14:00",
             "endTime": "14:30",
             "name": "Closing",
-            "room": "Plenum",
             "isBreak": false
           }
         ]
       }
     ]
-  }
+  },
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Piotr Poprawski"
+    },
+    {
+      "id": 2,
+      "name": "Gerd Pews"
+    },
+    {
+      "id": 3,
+      "name": "Michael Schulte"
+    },
+    {
+      "id": 4,
+      "name": "Roland Gäbler"
+    },
+    {
+      "id": 5,
+      "name": "Uwe Dumslaff"
+    },
+    {
+      "id": 6,
+      "name": "Peter Lempp"
+    }
+  ]
 }
