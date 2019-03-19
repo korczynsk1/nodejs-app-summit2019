@@ -14,42 +14,44 @@
             "id": 101,
             "startTime": "09:00",
             "endTime": "10:00",
-            "name": "Come together",
-            "isBreak": true
+            "name": "Participants Registration",
+            "room": "Entrance Hall",
+            "isBreak": false
           },
           {
             "id": 102,
             "startTime": "10:00",
-            "endTime": "11:00",
-            "name": "Joint Opening (from FRA)",
-            "room": "Plenum",
+            "endTime": "10:30",
+            "name": "Opening",
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
             "id": 103,
-            "startTime": "11:00",
+            "startTime": "10:30",
             "endTime": "11:30",
-            "name": "Joint Key Note (from FRA)",
-            "room": "Plenum",
+            "name": "Joint Key Note",
+            "room": "Matterhorn II",
+            "presenters": [
+              1
+            ],
             "isBreak": false
           },
           {
             "id": 104,
             "startTime": "11:30",
-            "endTime": "12:00",
-            "name": "EM Community Global View",
-            "presenters": [
-              1
-            ],
-            "room": "Stream rooms",
+            "endTime": "12:15",
+            "name": "A strategic view on LEAD",
+            "presenters": [2],
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
             "id": 105,
-            "startTime": "12:00",
+            "startTime": "12:15",
             "endTime": "12:30",
-            "name": "EM Stream 2",
-            "room": "Stream rooms",
+            "name": "Stream Unified Solutions: Pitch",
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
@@ -63,52 +65,62 @@
             "id": 107,
             "startTime": "13:30",
             "endTime": "14:30",
-            "name": "\"Cool\" Key Note",
-            "room": "Plenum",
+            "name": "External Key Note: \"Winning Together\"",
+            "room": "Matterhorn II",
+            "presenters": [3],
+            "isBreak": false
+          },
+          {
+            "id": 108,
+            "startTime": "14:30",
+            "endTime": "14:45",
+            "name": "Stream Deliver: Pitch",
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
             "id": 109,
-            "startTime": "14:30",
-            "endTime": "15:30",
+            "startTime": "14:45",
+            "endTime": "15:15",
             "name": "Break",
             "isBreak": true
           },
           {
             "id": 110,
-            "startTime": "15:30",
+            "startTime": "15:15",
             "endTime": "16:30",
-            "name": "EM Stream 2",
-            "room": "Stream rooms",
+            "name": "Stream Deliver",
+            "room": "Break Out rooms",
             "isBreak": false
           },
           {
             "id": 111,
             "startTime": "16:30",
             "endTime": "17:00",
-            "name": "Break",
+            "name": "Break + Q&A",
             "isBreak": true
           },
           {
             "id": 112,
             "startTime": "17:00",
-            "endTime": "18:30",
-            "name": "EM Stream 1",
-            "room": "Stream rooms",
+            "endTime": "18:00",
+            "name": "Stream Unified Solutions",
+            "room": "Break Out rooms",
             "isBreak": false
           },
           {
             "id": 113,
-            "startTime": "18:30",
+            "startTime": "18:00",
             "endTime": "20:00",
-            "name": "Break",
+            "name": "Free Time",
             "isBreak": true
           },
           {
             "id": 114,
             "startTime": "20:00",
-            "endTime": "21:00",
-            "name": "Dinner",
+            "endTime": "23:00",
+            "name": "Networking Dinner",
+            "room": "Matterhorn I + Matterhorn II",
             "isBreak": false
           }
         ]
@@ -121,8 +133,8 @@
             "id": 201,
             "startTime": "09:00",
             "endTime": "10:00",
-            "name": "EM Stream 1",
-            "room": "Stream rooms",
+            "name": "Stream Unified Solutions",
+            "room": "Break Out rooms",
             "isBreak": false
           },
           {
@@ -130,37 +142,42 @@
             "startTime": "10:00",
             "endTime": "11:00",
             "name": "Joint Key Note (FRA + WRO)",
-            "room": "Plenum",
+            "room": "Matterhorn II",
+            "presenters": [2,3],
             "isBreak": false
           },
           {
             "id": 203,
             "startTime": "11:00",
             "endTime": "11:30",
-            "name": "AR Common Break-Out",
-            "isBreak": false
+            "name": "Break + Q&A",
+            "isBreak": true
           },
           {
             "id": 204,
             "startTime": "11:30",
             "endTime": "12:00",
-            "name": "Break",
-            "isBreak": true
+            "name": "Community Global View and Curriculum",
+            "room": "Matterhorn II",
+            "presenters": [
+              4
+            ],
+            "isBreak": false
           },
           {
             "id": 205,
             "startTime": "12:00",
             "endTime": "12:30",
-            "name": "EM Stream 3",
-            "room": "Stream rooms",
+            "name": "Stream Become a leading EM: Pitch",
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
             "id": 206,
             "startTime": "12:30",
             "endTime": "13:00",
-            "name": "Joint Wrap-Up (from Pune)",
-            "room": "Plenum",
+            "name": "EMs & Architects all shore Joint Wrap up",
+            "room": "Matterhorn II",
             "isBreak": false
           },
           {
@@ -174,23 +191,31 @@
             "id": 208,
             "startTime": "14:00",
             "endTime": "15:30",
-            "name": "EM Stream 3",
-            "room": "Stream rooms",
+            "name": "Stream Become a leading EM",
+            "room": "Break Out rooms",
             "isBreak": false
           },
           {
             "id": 209,
             "startTime": "15:30",
-            "endTime": "16:00",
-            "name": "Closing",
-            "room": "Plenum",
+            "endTime": "15:45",
+            "name": "Q&A",
             "isBreak": false
           },
           {
             "id": 210,
+            "startTime": "15:45",
+            "endTime": "16:00",
+            "name": "Wrap Up and Closing",
+            "room": "Matterhorn II",
+            "isBreak": false
+          },
+          {
+            "id": 211,
             "startTime": "16:00",
             "endTime": "16:30",
             "name": "End + Coffee",
+            "room": "COFFEE AREA",
             "isBreak": true
           }
         ]
@@ -201,6 +226,18 @@
     {
       "id": 1,
       "name": "Garry Robinson"
+    },
+    {
+      "id": 2,
+      "name": "Uwe Dumslaff"
+    },
+    {
+      "id": 3,
+      "name": "Peter Lempp"
+    },
+    {
+      "id": 4,
+      "name": "Gary Robinsen"
     }
   ]
 }
