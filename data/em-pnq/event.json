@@ -12,102 +12,118 @@
         "timeSlots": [
           {
             "id": 101,
-            "startTime": "10:00",
-            "endTime": "10:30",
-            "name": "Opening Speach",
+            "startTime": "09:30",
+            "endTime": "09:45",
+            "name": "Opening Speech",
             "isBreak": false
           },
           {
             "id": 102,
-            "startTime": "10:30",
-            "endTime": "11:30",
-            "name": "EM Stream 1",
-            "room": "Stream Rooms",
+            "startTime": "09:45",
+            "endTime": "10:00",
+            "name": "Speech by NARU",
             "isBreak": false
           },
           {
             "id": 103,
-            "startTime": "11:30",
-            "endTime": "12:00",
+            "startTime": "10:00",
+            "endTime": "10:15",
+            "name": "Brief on Activity, Sequence AR and EM Work Streams",
+            "isBreak": false
+          },
+          {
+            "id": 104,
+            "startTime": "10:30",
+            "endTime": "11:00",
             "name": "Break",
             "isBreak": true
           },
           {
-            "id": 104,
-            "startTime": "12:00",
-            "endTime": "13:30",
-            "name": "EM Stream 1",
-            "room": "Stream rooms",
+            "id": 105,
+            "startTime": "11:00",
+            "endTime": "12:30",
+            "name": "EM Stream 2 - Deliver (with AR + EM)",
             "isBreak": false
           },
           {
-            "id": 105,
+            "id": 106,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "EM Stream 1 - Unified Solutions",
+            "isBreak": false
+          },
+          {
+            "id": 107,
             "startTime": "13:30",
             "endTime": "14:30",
             "name": "Lunch",
             "isBreak": true
           },
           {
-            "id": 106,
-            "startTime": "14:30",
-            "endTime": "15:30",
-            "name": "Joint Opening (from FRA)",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
-            "id": 107,
-            "startTime": "15:30",
-            "endTime": "16:00",
-            "name": "Joint Key Note (from FRA)",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
             "id": 108,
-            "startTime": "16:00",
-            "endTime": "16:30",
-            "name": "EM Community Global View",
-            "presenters": [1],
-            "room": "Plenum",
+            "startTime": "14:30",
+            "endTime": "15:00",
+            "name": "EM Stream 1 - Report out",
             "isBreak": false
           },
           {
             "id": 109,
-            "startTime": "16:30",
-            "endTime": "17:30",
-            "name": "EM Stream 2",
-            "room": "Stream rooms",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "name": "Joint Key Note",
+            "presenters": [1],
             "isBreak": false
           },
           {
             "id": 110,
+            "startTime": "16:00",
+            "endTime": "16:30",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 111,
+            "startTime": "16:30",
+            "endTime": "17:00",
+            "name": "Presentation: EPDM Agile transformation Journey",
+            "isBreak": false
+          },
+          {
+            "id": 112,
+            "startTime": "17:00",
+            "endTime": "17:30",
+            "name": "Speech by India EM Community Leader",
+            "presenters": [2],
+            "isBreak": false
+          },
+          {
+            "id": 113,
             "startTime": "17:30",
             "endTime": "18:00",
             "name": "Break",
             "isBreak": true
           },
           {
-            "id": 111,
+            "id": 114,
             "startTime": "18:00",
             "endTime": "19:00",
-            "name": "\"Cool\" Key Note",
-            "room": "Stream rooms",
+            "name": "Joint External Key Note: \"Winning Together\"",
+            "presenters": [3],
             "isBreak": false
           },
           {
-            "id": 112,
+            "id": 115,
             "startTime": "19:00",
-            "endTime": "20:00",
-            "name": "Break",
-            "isBreak": true
+            "endTime": "19:30",
+            "name": "Photo session",
+            "isBreak": false
           },
           {
-            "id": 113,
+            "id": 116,
             "startTime": "20:00",
             "endTime": "20:30",
             "name": "Dinner",
-            "isBreak": false
+            "isBreak": true
           }
         ]
       },
@@ -117,89 +133,122 @@
         "timeSlots": [
           {
             "id": 200,
-            "startTime": "10:00",
-            "endTime": "10:30",
-            "name": "Kick Off",
-            "room": "Plenum",
+            "startTime": "09:30",
+            "endTime": "10:00",
+            "name": "Kick Off Day 2",
             "isBreak": false
           },
           {
             "id": 201,
-            "startTime": "11:00",
-            "endTime": "11:30",
-            "name": "EM Stream 2",
-            "room": "Stream rooms",
+            "startTime": "10:00",
+            "endTime": "10:30",
+            "name": "Presentation: X-tech Service offering",
             "isBreak": false
           },
           {
             "id": 202,
+            "startTime": "10:30",
+            "endTime": "11:30",
+            "name": "Presentation: ADC Service offering",
+            "isBreak": false
+          },
+          {
+            "id": 203,
             "startTime": "11:30",
             "endTime": "12:00",
             "name": "Break",
             "isBreak": true
           },
           {
-            "id": 203,
+            "id": 204,
             "startTime": "12:00",
             "endTime": "13:30",
-            "name": "EM Stream 3",
-            "room": "Stream rooms",
+            "name": "Cultural Awareness while working in Offshore-Onshore Project",
             "isBreak": false
           },
           {
-            "id": 204,
+            "id": 205,
             "startTime": "13:30",
             "endTime": "14:30",
             "name": "Lunch",
             "isBreak": true
           },
           {
-            "id": 205,
+            "id": 206,
             "startTime": "14:30",
             "endTime": "15:30",
             "name": "Joint Key Note (FRA + WRO)",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
-            "id": 206,
-            "startTime": "15:30",
-            "endTime": "16:00",
-            "name": "EM Common Break-Out",
+            "presentations": [5,6],
             "isBreak": false
           },
           {
             "id": 207,
             "startTime": "15:30",
-            "endTime": "16:30",
+            "endTime": "16:00",
             "name": "Break",
             "isBreak": true
           },
           {
             "id": 208,
-            "startTime": "16:30",
-            "endTime": "17:00",
-            "name": "EM Stream 3",
-            "room": "Stream rooms",
+            "startTime": "16:00",
+            "endTime": "16:30",
+            "name": "EM Community Global View and Curriculum",
+            "presentations": [7],
             "isBreak": false
           },
           {
             "id": 208,
-            "startTime": "17:00",
-            "endTime": "17:30",
-            "name": "Joint Wrap-Up (from Pune)",
-            "room": "Plenum",
+            "startTime": "16:30",
+            "endTime": "17:00",
+            "name": "Report-out (with AR + EM)",
             "isBreak": false
           },
           {
             "id": 209,
+            "startTime": "17:00",
+            "endTime": "17:30",
+            "name": "Joint Wrap-up",
+            "isBreak": false
+          },
+          {
+            "id": 210,
             "startTime": "17:30",
             "endTime": "18:00",
             "name": "End + Coffee",
             "isBreak": true
-          }
+          }          
         ]
       }
     ]
-  }
+  },
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Michael Schulte"
+    },
+    {
+      "id": 2,
+      "name": "Pooja Herwadkar"
+    },
+    {
+      "id": 3,
+      "name": "Roland Gabler"
+    },
+    {
+      "id": 4,
+      "name": "Amarendra Deshpande"
+    },
+    {
+      "id": 5,
+      "name": "Uwe Dumslaff"
+    },
+    {
+      "id": 6,
+      "name": "Peter Lempp"
+    },
+    {
+      "id": 7,
+      "name": "Gary Robinson"
+    }
+  ]
 }
