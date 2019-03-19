@@ -12,100 +12,148 @@
         "timeSlots": [
           {
             "id": 101,
-            "startTime": "10:00",
-            "endTime": "10:30",
-            "name": "Opening Speach",
+            "startTime": "07:00",
+            "endTime": "08:15",
+            "name": "Breakfast at Hotel",
             "isBreak": false
           },
           {
             "id": 102,
-            "startTime": "10:30",
-            "endTime": "11:30",
-            "name": "Working Streams",
-            "room": "Stream Rooms",
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Bus Travel to Campus",
             "isBreak": false
           },
           {
             "id": 103,
-            "startTime": "11:30",
-            "endTime": "12:00",
-            "name": "Break",
-            "isBreak": true
+            "startTime": "09:30",
+            "endTime": "09:45",
+            "name": "Opening Speech",
+            "isBreak": false
           },
           {
             "id": 104,
-            "startTime": "12:00",
-            "endTime": "13:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "startTime": "09:45",
+            "endTime": "10:00",
+            "name": "Speech by BU Head",
             "isBreak": false
           },
           {
             "id": 105,
+            "startTime": "10:00",
+            "endTime": "10:15",
+            "name": "Brief on Activity, Sequence AR and EM Work Streams",
+            "isBreak": false
+          },
+          {
+            "id": 106,
+            "startTime": "10:15",
+            "endTime": "10:45",
+            "name": "Session by India Architect Community Leader",
+            "presenters": [
+              3
+            ],
+            "isBreak": false
+          },
+          {
+            "id": 107,
+            "startTime": "10:45",
+            "endTime": "11:00",
+            "name": "Break",
+            "isBreak": true
+          },
+          {
+            "id": 108,
+            "startTime": "11:00",
+            "endTime": "12:30",
+            "name": "Parallel Work Streams",
+            "isBreak": false
+          },
+          {
+            "id": 109,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Session by I&D Lead",
+            "isBreak": false
+          },
+          {
+            "id": 110,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Certification Board",
+            "isBreak": false
+          },
+          {
+            "id": 111,
             "startTime": "13:30",
             "endTime": "14:30",
             "name": "Lunch",
             "isBreak": true
           },
           {
-            "id": 106,
+            "id": 112,
             "startTime": "14:30",
             "endTime": "15:30",
-            "name": "Joint Opening (from FRA)",
-            "room": "Plenum",
+            "name": "Joint Opening from FRA, WRO, PUNE",
             "isBreak": false
-          },
-          {
-            "id": 107,
-            "startTime": "15:30",
-            "endTime": "16:00",
-            "name": "Joint Key Note (from FRA)",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
-            "id": 108,
-            "startTime": "16:00",
-            "endTime": "17:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
-            "isBreak": false
-          },
-          {
-            "id": 109,
-            "startTime": "17:30",
-            "endTime": "18:00",
-            "name": "Break",
-            "isBreak": true
-          },
-          {
-            "id": 110,
-            "startTime": "18:00",
-            "endTime": "19:00",
-            "name": "\"Cool\" Key Note",
-            "room": "Stream rooms",
-            "isBreak": false
-          },
-          {
-            "id": 111,
-            "startTime": "19:00",
-            "endTime": "19:30",
-            "name": "AR Common Break-Out",
-            "room": "Plenum",
-            "isBreak": false
-          },
-          {
-            "id": 112,
-            "startTime": "19:30",
-            "endTime": "20:00",
-            "name": "Break",
-            "isBreak": true
           },
           {
             "id": 113,
+            "startTime": "15:30",
+            "endTime": "16:00",
+            "name": "Joint Key Note",
+            "isBreak": false
+          },
+          {
+            "id": 114,
+            "startTime": "16:00",
+            "endTime": "17:30",
+            "name": "Parallel Work Streams and Onshore Participation",
+            "isBreak": false
+          },
+          {
+            "id": 115,
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "name": "Certification Board",
+            "isBreak": false
+          },
+          {
+            "id": 116,
+            "startTime": "17:30",
+            "endTime": "18:00",
+            "name": "Hi Tea and Snacks",
+            "isBreak": true
+          },
+          {
+            "id": 117,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Joint External Key Note: \"Winning Together\"",
+            "presenters": [
+              4
+            ],
+            "isBreak": false
+          },
+          {
+            "id": 118,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Photo session & Travel to Dinner Venue",
+            "isBreak": false
+          },
+          {
+            "id": 119,
             "startTime": "20:00",
-            "endTime": "20:30",
-            "name": "Dinner",
+            "endTime": "23:00",
+            "name": "Dinner + Music",
+            "isBreak": true
+          },
+          {
+            "id": 120,
+            "startTime": "23:00",
+            "endTime": "23:30",
+            "name": "Return to Hotel",
             "isBreak": false
           }
         ]
@@ -116,74 +164,136 @@
         "timeSlots": [
           {
             "id": 201,
-            "startTime": "11:00",
-            "endTime": "11:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "startTime": "07:00",
+            "endTime": "08:15",
+            "name": "Breakfast at Hotel",
             "isBreak": false
           },
           {
             "id": 202,
-            "startTime": "11:30",
-            "endTime": "12:00",
-            "name": "Break",
-            "isBreak": true
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Bus Travel to Campus",
+            "isBreak": false
           },
           {
             "id": 203,
-            "startTime": "12:00",
-            "endTime": "13:30",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "startTime": "09:30",
+            "endTime": "09:45",
+            "name": "Kick Off Day 2",
             "isBreak": false
           },
           {
             "id": 204,
+            "startTime": "09:45",
+            "endTime": "10:00",
+            "name": "Agenda for Day 2",
+            "isBreak": false
+          },
+          {
+            "id": 205,
+            "startTime": "10:00",
+            "endTime": "10:30",
+            "name": "Session by Xtech",
+            "isBreak": false
+          },
+          {
+            "id": 206,
+            "startTime": "10:30",
+            "endTime": "11:30",
+            "name": "Session (Solutions Hub)",
+            "presenters": [
+              5
+            ],
+            "isBreak": false
+          },
+          {
+            "id": 207,
+            "startTime": "11:30",
+            "endTime": "12:00",
+            "name": "Coffee/Tea Break",
+            "isBreak": true
+          },
+          {
+            "id": 208,
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "name": "Work Streams in Parallel",
+            "isBreak": false
+          },
+          {
+            "id": 209,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Certification board",
+            "isBreak": false
+          },
+          {
+            "id": 210,
+            "startTime": "13:00",
+            "endTime": "13:30",
+            "name": "Report out",
+            "isBreak": false
+          },
+          {
+            "id": 211,
             "startTime": "13:30",
             "endTime": "14:30",
             "name": "Lunch",
             "isBreak": true
           },
           {
-            "id": 205,
+            "id": 212,
             "startTime": "14:30",
             "endTime": "15:30",
-            "name": "Joint Key Note (FRA + WRO)",
-            "room": "Plenum",
+            "name": "Joint Key Note",
             "isBreak": false
           },
           {
-            "id": 206,
+            "id": 213,
             "startTime": "15:30",
             "endTime": "16:30",
-            "name": "Break",
-            "isBreak": true
+            "name": "Break and Poster Session. Giveaways",
+            "isBreak": false
           },
           {
-            "id": 207,
+            "id": 214,
             "startTime": "16:30",
-            "endTime": "17:00",
-            "name": "Working streams",
-            "room": "Stream rooms",
+            "endTime": "17:15",
+            "name": "Report out continued",
             "isBreak": false
           },
           {
-            "id": 208,
-            "startTime": "17:00",
+            "id": 215,
+            "startTime": "17:15",
             "endTime": "17:30",
-            "name": "Joint Wrap-Up (from Pune)",
-            "room": "Plenum",
+            "name": "Closure of Summit at Pure",
             "isBreak": false
-          },
-          {
-            "id": 209,
-            "startTime": "17:30",
-            "endTime": "18:00",
-            "name": "End + Coffee",
-            "isBreak": true
           }
         ]
       }
     ]
-  }
+  },
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Rajashree"
+    },
+    {
+      "id": 2,
+      "name": "Thilo"
+    },
+    {
+      "id": 3,
+      "name": "Ali Asgar"
+    },
+    {
+      "id": 4,
+      "name": "Roland Gabler"
+    },
+    {
+      "id": 5,
+      "name": "Amarendra Deshpande"
+    }
+  ]
 }
